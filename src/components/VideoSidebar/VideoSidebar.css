@@ -1,0 +1,33 @@
+.videosidebar {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  color: #fff;
+  display: grid;
+  gap: 30px;
+}
+.videosidebar__option {
+  display: grid;
+  justify-items: center;
+}
+.videosidebar__icon {
+  cursor: pointer;
+}
+.videosidebar__icon:hover,
+.videosidebar__icon:focus-within {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.08);
+}
+.videosidebar__option p {
+  font-size: 14px;
+}
+
+/* @media (max-width: 600px) {
+  .videosidebar {
+    right: 10px;
+    gap: 20px;
+  }
+  .videosidebar__icon {
+    font-size: 25px !important;
+  }
+} */
